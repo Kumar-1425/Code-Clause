@@ -1,0 +1,28 @@
+/* Gallery.css */
+
+/* Container for the gallery */
+.gallery-container {
+  margin-top: 20px;
+}
+
+/* Styling for each gallery item */
+.gallery-item {
+  width: 100%;
+  height: auto; /* Ensure images are responsive */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for gallery items */
+.gallery-item:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Ensure proper alignment and spacing in the gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Space between images */
+}

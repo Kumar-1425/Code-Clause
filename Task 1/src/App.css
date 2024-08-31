@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.content-container {
+  color: #ffffff;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text visibility */
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #f8f9fa; /* Light color for the button */
+  border: 1px solid #ced4da; /* Slightly darker border for contrast */
+  color: #495057; /* Darker text color for readability */
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e2e6ea; /* Slightly darker light color on hover */
+  color: #212529; /* Darker text color on hover for better contrast */
+}
